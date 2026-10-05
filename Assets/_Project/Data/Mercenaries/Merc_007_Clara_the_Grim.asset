@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ddd630991664f428f3a6b46f63efcc, type: 3}
+  m_Name: Merc_007_Clara_the_Grim
+  m_EditorClassIdentifier: Assembly-CSharp::HeroManagement.HeroData
+  heroName: Clara the Grim
+  heroBio: A altruistic Human Ranger looking for work.
+  heroClass: 1
+  heroRace: 0
+  personality: 2
+  fameTier: 1
+  age: 23
+  level: 3
+  currentExp: 0
+  baseStats:
+    strength: 8
+    intelligence: 7
+    speed: 10
+    vitality: 8
+    healing: 4
+    charisma: 10
+  levelBonusStats:
+    strength: 0
+    intelligence: 0
+    speed: 0
+    vitality: 0
+    healing: 0
+    charisma: 0
+  levelsGained: 0
+  bonusUpkeepGained: 0
+  baseAttack: {fileID: 0}
+  baseDefense: {fileID: 0}
+  equippedSkills:
+  - {fileID: 11400000, guid: 22179626b56621948a9117fc2a0cda95, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  hasSkillSnapshot: 0
+  skillSnapshot: []
+  equippedWeapon: {fileID: 0}
+  equippedArmor: {fileID: 11400000, guid: 469d45c9cbac63144b3dff93118045e6, type: 2}
+  weaponDurability: 100
+  armorDurability: 100
+  mount: 0
+  hasGearSnapshot: 0
+  snapshotWeapon: {fileID: 0}
+  snapshotArmor: {fileID: 0}
+  dailyUpkeepCost: 11
+  successCount: 0
+  failCount: 0
+  favoredCompanions: []
+  hatedCompanions: []
+  currentContract: 0
+  contractDurationLeft: 0
+  hasFreeEquipmentClause: 0
+  agreedSharePercent: 20
+  loyalty: 100
+  injury: 0
+  restDaysLeft: 0
+  idleDays: 0
+  missionRequests: 0
+  hasTemporaryPotential: 0
+  hasPermanentPotential: 0
+  permanentEnchantmentDesc: 
+  isBusy: 0
+  isDead: 0

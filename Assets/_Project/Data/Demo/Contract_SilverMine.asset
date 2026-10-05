@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d209309afcf52b49bb2adb869cfdc2c, type: 3}
+  m_Name: Contract_SilverMine
+  m_EditorClassIdentifier: Assembly-CSharp::HeroManagement.ContractData
+  clientName: Ironcrest Mining Company
+  contractDescription: Escort our silver shipment through the pass. We need a proper fighter.
+  missionType: 1
+  source: 0
+  clientType: 1
+  availableFromDay: 1
+  postedDurationDays: 3
+  spawnWeight: 1
+  kingdomName: Ironcrest
+  targetRegion: 2
+  travelDifficulty: 1
+  estimatedDays: 4
+  baseRewardGold: 1100
+  maxAllowedSlots: 3
+  rewardItems:
+  - item: {fileID: 11400000, guid: a3819ce62aeca2e43b7859a232090980, type: 2}
+    amount: 1
+    chancePercent: 60
+  requiresClass: 1
+  requiredClass: 0
+  requiresRace: 0
+  requiredRace: 0
+  requiredMinLevel: 0
+  primarySkillRequired: 1
+  hasPreferredClass: 1
+  preferredClass: 0
+  recommendedPower: 38
+  recommendedPartyStats:
+    strength: 22
+    intelligence: 0
+    speed: 10
+    vitality: 16
+    healing: 0
+    charisma: 6
+  isTowerRaid: 0
+  towerFloors: 10
+  towerStartFloor: 1
+  minGearRating: 0
+  isAccepted: 0
+  isCompleted: 0
+  isPosted: 0
+  postedUntilDay: 0
